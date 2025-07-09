@@ -116,8 +116,10 @@ library features:
 - `Test.MultiThread` – multiple goroutines sending on one client connection
 - `Test.Reconnect` – reconnect logic for unreliable networks
 - `Test.SyncMessages` – synchronous request/response messaging
+- `Test.Deadlock` – demonstrates a send/receive deadlock when both sides wait on each other
 - `Test.MaxConnections` – demonstrates connection limit enforcement
 - `Test.FastDisconnect` – connect and immediately disconnect repeatedly
+
 
 Build an example with:
 
