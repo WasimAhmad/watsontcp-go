@@ -115,6 +115,7 @@ library features:
 - `Test.Parallel` – multiple clients sending concurrently
 - `Test.Reconnect` – reconnect logic for unreliable networks
 - `Test.SyncMessages` – synchronous request/response messaging
+- `Test.MaxConnections` – demonstrates connection limit enforcement
 - `Test.FastDisconnect` – connect and immediately disconnect repeatedly
 
 Build an example with:
