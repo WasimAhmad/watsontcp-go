@@ -113,6 +113,8 @@ library features:
 - `Test.Parallel` – multiple clients sending concurrently
 - `Test.Reconnect` – reconnect logic for unreliable networks
 - `Test.SyncMessages` – synchronous request/response messaging
+- `Test.Deadlock` – demonstrates a send/receive deadlock when both sides wait
+  on each other
 
 Build an example with:
 
