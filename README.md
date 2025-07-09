@@ -113,6 +113,7 @@ library features:
 - `Test.Metadata` – sending messages with metadata maps
 - `Test.LargeMessages` – validate framing with multi-megabyte payloads
 - `Test.Parallel` – multiple clients sending concurrently
+- `Test.MultiThread` – multiple goroutines sending on one client connection
 - `Test.Reconnect` – reconnect logic for unreliable networks
 - `Test.SyncMessages` – synchronous request/response messaging
 - `Test.MaxConnections` – demonstrates connection limit enforcement
