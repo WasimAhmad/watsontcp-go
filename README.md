@@ -109,17 +109,28 @@ library features:
 - `Test.Client` – interactive console client
 - `Test.Server` – simple console server
 - `Test.FileTransfer` – streaming data between client and server
+- `Test.ClientStream` – client sends a stream to the server
 - `Test.Metadata` – sending messages with metadata maps
+- `Test.LargeMessages` – validate framing with multi-megabyte payloads
 - `Test.Parallel` – multiple clients sending concurrently
+- `Test.MultiThread` – multiple goroutines sending on one client connection
 - `Test.Reconnect` – reconnect logic for unreliable networks
 - `Test.SyncMessages` – synchronous request/response messaging
-- `Test.Deadlock` – demonstrates a send/receive deadlock when both sides wait
-  on each other
+- `Test.Deadlock` – demonstrates a send/receive deadlock when both sides wait on each other
+- `Test.MaxConnections` – demonstrates connection limit enforcement
+- `Test.FastDisconnect` – connect and immediately disconnect repeatedly
+
 
 Build an example with:
 
 ```
 go build ./examples/<ExampleName>
+```
+
+For the new large message test:
+
+```
+go build ./examples/Test.LargeMessages
 ```
 
 ## Compatibility with C#
