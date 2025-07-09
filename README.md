@@ -109,6 +109,7 @@ library features:
 - `Test.Client` – interactive console client
 - `Test.Server` – simple console server
 - `Test.FileTransfer` – streaming data between client and server
+- `Test.ClientStream` – client sends a stream to the server
 - `Test.Metadata` – sending messages with metadata maps
 - `Test.Parallel` – multiple clients sending concurrently
 - `Test.Reconnect` – reconnect logic for unreliable networks
