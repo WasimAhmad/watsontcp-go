@@ -111,6 +111,7 @@ library features:
 - `Test.FileTransfer` – streaming data between client and server
 - `Test.Metadata` – sending messages with metadata maps
 - `Test.Parallel` – multiple clients sending concurrently
+- `Test.MultiThread` – multiple goroutines sending on one client connection
 - `Test.Reconnect` – reconnect logic for unreliable networks
 - `Test.SyncMessages` – synchronous request/response messaging
 
